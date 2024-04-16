@@ -1,0 +1,13 @@
+hidden = [
+    '.config',
+    'target',
+    '.cargo'
+]
+modules = [
+    'rust-stable:v11-20240329-787bc7d'
+]
+run = '(just test)'
+
+[nix]
+channel = 'stable-23_11'
+
